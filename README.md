@@ -1,7 +1,12 @@
 # node_notification
-node module for notification, current only support email notification
+> node module for notification, currently only support email notification
 
-example
+## Install
+```sh
+$ npm i @helloxyz/node_notification
+```
+
+## Usage
 
 ```javascript
 var notification = require('./index')
@@ -28,3 +33,7 @@ notification.send({
     message: 'hello world!!!'
 })
 ```
+
+## License
+
+MTI
