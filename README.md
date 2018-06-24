@@ -1,13 +1,14 @@
 # node_notification
 > node module for notification, currently only support email notification
 
-## Install
+Install
+---
 ```sh
 $ npm i @helloxyz/node_notification
 ```
 
-## Usage
-
+Usage
+---
 ```javascript
 var notification = require('./index')
 
@@ -34,6 +35,7 @@ notification.send({
 })
 ```
 
-## License
+License
+---
 
-MTI
+[MIT](LICENSE)
